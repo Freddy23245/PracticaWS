@@ -16,7 +16,7 @@ namespace DAO
 			try
 			{
 				var con = Conexion.ObtenerConexionSQL();
-				string comando = "";
+				string comando = "RegistrarZona";
 				SqlCommand cmd = new SqlCommand(comando, con);
 				cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
